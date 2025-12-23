@@ -1,5 +1,5 @@
-
-"""
+def insertion_sort(arr):
+    """
 insertion sort logic:
     https://en.wikipedia.org/wiki/Insertion_sort
     
@@ -26,9 +26,6 @@ insertion sort logic:
 
 """
 
-
-def insertion_sort(arr):
-
     for i in range(1,len(arr)):
         key = arr[i]
         j = i-1
@@ -45,4 +42,5 @@ import random
 arr = random.sample(range(-100000,150000),7500)
 print(arr)
 print(insertion_sort(arr))
+
 
